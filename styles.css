@@ -1,0 +1,101 @@
+
+body {
+	background: url(images/boardgame-bg1.jpg);
+	background-attachment: fixed;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+header > div > nav > div {
+    max-width: 1200px;
+}
+
+.navbar-top {
+    background-color: #B0C1D9;
+    height: 35px;
+}
+
+.msg-style {
+    font-size: 13px;
+    font-weight: 600;
+    color: #024873;
+}
+
+.navbar-bottom {
+    background-color: #024873;
+    color: white;
+    min-height: 70px;
+}
+
+#content {
+    min-height: 510px;
+}
+
+.footer-info {
+    font-size: 13px;
+}
+
+
+
+
+
+
+.title-container {
+    background: linear-gradient(#9b287b, #ec164e);
+    border: solid 1px #024873;    
+    max-width: 1000px;
+    margin-top: 450px;
+    margin-bottom: 200px;
+    opacity: 0.9;
+}
+
+.img-line {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.card-container {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.card-bg {
+    background: linear-gradient(#024873, #048ABF);
+    color: white;
+}
+
+.card-img {
+    max-width: 500px;
+}
+
+.carousel-inner {
+    background: linear-gradient(#9b287b, #ec164e);
+    border: solid 1px #024873;    
+    min-height: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    opacity: 0.9;
+}
+
+.carousel-img {
+    max-width: 300px;
+}
+
+.gameboard-info {
+    max-width: 500px;
+    font-size: 14px;
+}
+
+.form-container {
+    background: linear-gradient(#9b287b, #ec164e);
+    color: white;
+    border: solid 1px #024873;    
+    opacity: 0.9;
+    padding: 50px 70px;
+    margin: 70px;
+    min-width: 800px;
+    min-height: 450px;
+}
