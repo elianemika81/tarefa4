@@ -1,0 +1,52 @@
+<div class="container">
+	<div class="form-container">
+		<form id="searchForm" action="" method="get" class="mb-4">
+			<fieldset>
+				<div class="mb-3">
+					<label for="cidade" class="form-label">Cidade:</label>
+
+					<select
+						class="form-select mb-4"
+						name="select"
+						id="cidade"
+						aria-label="Default select example"
+					>
+						<option value="" disabled selected>
+							Selecione uma opção abaixo:
+						</option>
+						<option value="São Paulo">São Paulo</option>
+						<option value="Osasco">Osasco</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<button
+				onclick="loadTasksOnClick(event)"
+				type="button"
+				class="btn btn-primary"
+				id="search"
+				name="search"
+				value="Encontre jogadores!"
+			>
+				Encontre Jogadores
+			</button>
+		</form>
+
+		<div id="players">
+			<table id="playersTable" class="table table-hover">
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Bairro</th>
+						<th>E-mail</th>
+						<th>Telefone</th>
+						<th>Cidade</th>
+					</tr>
+				</thead>
+				<tbody id="listPlayers">
+					<tr></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
