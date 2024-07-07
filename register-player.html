@@ -1,0 +1,87 @@
+<div class="container">
+	<div class="form-container">
+		<p>Por enquanto aceitamos cadastro apenas de jogadores que moram na cidade de São Paulo ou de Osasco.</p>
+		<form>
+			<div class="mb-3">
+				<label for="nome" class="form-label">Nome</label>
+				<input
+					type="name"
+					class="form-control"
+					id="nome"
+					aria-describedby="nameHelp"
+				/>
+			</div>
+			<div class="mb-3">
+				<label for="bairro" class="form-label">Bairro</label>
+				<input
+					type="neighborhood"
+					class="form-control"
+					id="bairro"
+					aria-describedby="neighborhoodHelp"
+				/>
+			</div>
+			<div class="mb-3">
+				<label for="email" class="form-label">Email</label>
+				<input
+					type="email"
+					class="form-control"
+					id="email"
+					aria-describedby="emailHelp"
+					placeholder="email@email.com"
+				/>
+				<!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+			</div>
+			<div class="mb-3">
+				<label for="telefone" class="form-label">Telefone</label>
+				<input
+					type="phone"
+					class="form-control"
+					id="telefone"
+					aria-describedby="phoneHelp"
+					placeholder="Telefone com DDD"
+				/>
+			</div>
+
+			<div class="mb-5">
+				<label for="cidade" class="form-label">Cidade</label>
+
+				<select
+					name="select"
+					id="cidade"
+					class="form-select"
+					aria-label="Default select example"
+				>
+					<option value="" disabled selected>Selecione uma opção abaixo:</option>
+					<option value="São Paulo">São Paulo</option>
+					<option value="Osasco">Osasco</option>
+				</select>
+			</div>
+
+            <div class="d-flex justify-content-end gap-3">
+
+                    <label for="register"></label>
+                    <button
+                        onclick="registerTask(event)"
+                        type="button"
+                        class="btn btn-primary"
+                        id="register"
+                        name="register"
+                        value="Cadastre jogador!"
+                    >
+                        Cadastrar Jogador
+                    </button>
+
+                    <label for="clear"></label>
+                    <button
+                        type="reset"
+                        class="btn btn-secondary"
+                        id="clear"
+                        name="clear"
+                        value="Limpar formulário"
+                    >
+                        Limpar Formulário
+                    </button>
+            </div>
+		</form>
+	</div>
+</div>
